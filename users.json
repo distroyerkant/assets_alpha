@@ -5,4 +5,8 @@
   "jane_smith": {
     "password": "secure456"
   }
+  },
+  "durgesh_panwar": {
+    "password": "password123"
+  }
 }
