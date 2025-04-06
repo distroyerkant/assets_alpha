@@ -8,5 +8,10 @@
     "name": "Jane Smith",
     "investment": 20000,
     "current_value": 18000
+  },
+  "durgesh_panwar": {
+    "name": "Durgesh Panwar",
+    "investment": 200000,
+    "current_value": 222000
   }
 }
