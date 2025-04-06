@@ -1,0 +1,8 @@
+{
+  "john_doe": {
+    "password": "password123"
+  },
+  "jane_smith": {
+    "password": "secure456"
+  }
+}
