@@ -37,7 +37,7 @@ def show_dashboard(username, investments):
 # Main App
 def main():
     st.set_page_config(page_title="Investor Dashboard", layout="centered")
-    st.title("🔐 Investor Login")
+    
 
     users = load_users()
     investments = load_investments()
@@ -48,6 +48,7 @@ def main():
         st.session_state.username = ""
 
     if not st.session_state.logged_in:
+        st.title("🔐 Investor Login")
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
         if st.button("Login"):
