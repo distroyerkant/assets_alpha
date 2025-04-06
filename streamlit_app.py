@@ -20,7 +20,7 @@ def show_dashboard(username, investments):
     if username not in investments:
         st.error("No investment data found.")
         return
-
+    
     data = investments[username]
     name = data["name"]
     investment = data["investment"]
@@ -30,8 +30,8 @@ def show_dashboard(username, investments):
     st.title(f"Welcome, {name}")
     st.subheader("📊 Investment Dashboard")
 
-    st.metric("💵 Initial Investment", f"${investment:,.2f}")
-    st.metric("📈 Current Value", f"${current_value:,.2f}")
+    st.metric("💵 Initial Investment", f"₹{investment:,.2f}")
+    st.metric("📈 Current Value", f"₹{current_value:,.2f}")
     st.metric("📊 Return (%)", f"{returns:.2f}%")
 
 # Main App
