@@ -1,0 +1,12 @@
+{
+  "john_doe": {
+    "name": "John Doe",
+    "investment": 10000,
+    "current_value": 13500
+  },
+  "jane_smith": {
+    "name": "Jane Smith",
+    "investment": 20000,
+    "current_value": 18000
+  }
+}
